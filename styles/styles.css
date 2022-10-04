@@ -103,3 +103,10 @@ img {
 .card--content__box button:hover {
   background-color: hsl(158, 47%, 22%);
 }
+
+@media  screen and (max-width: 768px) {
+  .card--component {
+    display: flex;
+    flex-direction: column;
+  }
+}
