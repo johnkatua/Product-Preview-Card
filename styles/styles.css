@@ -39,7 +39,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: brown;
   margin: 1rem;
   height: calc(100% - 2rem);
 }
@@ -51,14 +50,12 @@ img {
   font-size: 200;
   color: hsl(228, 12%, 48%);
   margin-bottom: 25px;
-  background-color: chocolate;
 }
 
 .card--content__box h1 {
   margin-top: 0;
   margin-bottom: 25px;
   font-size: 26px;
-  background-color: chocolate;
   letter-spacing: 1px;
 }
 
@@ -67,7 +64,6 @@ img {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 25px;
-  background-color: crimson;
 }
 
 .card--box__price {
@@ -75,7 +71,6 @@ img {
   align-items: center;
   width: 100%;
   height: 5rem;
-  background-color: darkblue;
   margin-bottom: 25px;
 }
 
@@ -87,4 +82,15 @@ img {
 
 .card--box__price span:nth-child(2) {
   color: hsl(228, 12%, 48%);
+}
+
+.card--content__box button {
+  width: 100%;
+  height: 2.5rem;
+  background-color: hsl(158, 36%, 37%);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
 }
