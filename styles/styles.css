@@ -9,7 +9,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
   height: 100vh;
 }
 
@@ -18,5 +17,15 @@ body {
   flex-direction: row;
   width: 50%;
   height: 70%;
-  background-color: blueviolet;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+
+.card--component__image {
+  width: 50%;
+}
+
+.card--component__content {
+  background-color: brown;
+  width: 50%;
 }
