@@ -69,3 +69,22 @@ img {
   margin-bottom: 25px;
   background-color: crimson;
 }
+
+.card--box__price {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  background-color: darkblue;
+  margin-bottom: 25px;
+}
+
+.card--box__price span:first-child {
+  width: 50%;
+  font-size: 35px;
+  color: hsl(158, 36%, 37%);
+}
+
+.card--box__price span:nth-child(2) {
+  color: hsl(228, 12%, 48%);
+}
