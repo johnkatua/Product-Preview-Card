@@ -32,6 +32,11 @@ img {
 }
 
 .card--component__content {
-  background-color: brown;
   width: 50%;
+}
+
+.card--content__box {
+  background-color: brown;
+  margin: 1rem;
+  height: calc(100% - 2rem);
 }
