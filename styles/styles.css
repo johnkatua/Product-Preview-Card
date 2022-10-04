@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
 }
 
 .card--container {
@@ -13,5 +14,9 @@ body {
 }
 
 .card--component {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 70%;
   background-color: blueviolet;
 }
