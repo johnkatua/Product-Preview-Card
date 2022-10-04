@@ -36,7 +36,20 @@ img {
 }
 
 .card--content__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   background-color: brown;
   margin: 1rem;
   height: calc(100% - 2rem);
+}
+
+.card--content__box h2 {
+  width: 100%;
+  margin-top: 0;
+  background-color: chartreuse;
+  letter-spacing: 1.5px;
+  font-size: 200;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 25px;
 }
