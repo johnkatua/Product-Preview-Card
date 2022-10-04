@@ -93,4 +93,9 @@ img {
   border-radius: 5px;
   color: white;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.card--content__box button:hover {
+  background-color: hsl(158, 47%, 22%);
 }
